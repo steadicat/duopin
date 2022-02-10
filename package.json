@@ -1,0 +1,26 @@
+{
+    "name": "duopin",
+    "displayName": "Duopin",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Duopin Light",
+                "uiTheme": "vs",
+                "path": "./themes/Duopin Light-color-theme.json"
+            },
+            {
+                "label": "Duopin Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Duopin Dark-color-theme.json"
+            }
+        ]
+    }
+}
